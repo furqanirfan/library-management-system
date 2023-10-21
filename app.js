@@ -14,7 +14,7 @@ var app = express();
 const mongoose = require("mongoose");
 mongoose.set("strictQuery", false);
 const mongoDB =
-  "mongodb+srv://furqiirfan:pakistan92@llcluster.8fpxcap.mongodb.net/?retryWrites=true&w=majority";
+  "";
 
 main().catch((err) => console.log(err));
 async function main() {
